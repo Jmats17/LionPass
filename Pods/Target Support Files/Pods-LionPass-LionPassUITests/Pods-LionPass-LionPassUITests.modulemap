@@ -1,0 +1,6 @@
+framework module Pods_LionPass_LionPassUITests {
+  umbrella header "Pods-LionPass-LionPassUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

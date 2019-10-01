@@ -3,18 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1678B321F7B8C2D7381CCFB8 /* Pods_LionPass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5E60123DED944366E8A6AC /* Pods_LionPass.framework */; };
+		6DFCC71B57AC7D7CB3746210 /* Pods_LionPass_LionPassUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7653BF5D421E126D2E8107 /* Pods_LionPass_LionPassUITests.framework */; };
 		D039E8DF233D1EB800B0FC6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039E8DE233D1EB800B0FC6B /* AppDelegate.swift */; };
 		D039E8E1233D1EB800B0FC6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039E8E0233D1EB800B0FC6B /* SceneDelegate.swift */; };
-		D039E8E3233D1EB800B0FC6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039E8E2233D1EB800B0FC6B /* ViewController.swift */; };
 		D039E8E6233D1EB800B0FC6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D039E8E4233D1EB800B0FC6B /* Main.storyboard */; };
 		D039E8E8233D1EB900B0FC6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D039E8E7233D1EB900B0FC6B /* Assets.xcassets */; };
 		D039E8EB233D1EB900B0FC6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D039E8E9233D1EB900B0FC6B /* LaunchScreen.storyboard */; };
 		D039E8F6233D1EB900B0FC6B /* LionPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039E8F5233D1EB900B0FC6B /* LionPassTests.swift */; };
 		D039E901233D1EB900B0FC6B /* LionPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039E900233D1EB900B0FC6B /* LionPassUITests.swift */; };
+		D039E92F2341298900B0FC6B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D039E92E2341298900B0FC6B /* CoreImage.framework */; };
+		D039E93323412F3700B0FC6B /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039E93223412F3700B0FC6B /* Profile.swift */; };
+		D039E9352341447200B0FC6B /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039E9342341447200B0FC6B /* RealmService.swift */; };
+		D039E937234145FA00B0FC6B /* AddProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039E936234145FA00B0FC6B /* AddProfileViewController.swift */; };
+		D039E9392343C4B000B0FC6B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039E9382343C4B000B0FC6B /* ProfileViewController.swift */; };
+		D47B6C487A4D506F71381675 /* Pods_LionPassTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCEA7B04C73E0B5D81BB88C /* Pods_LionPassTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A810B62E13D99D6E57BCC79 /* Pods-LionPassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionPassTests.release.xcconfig"; path = "Target Support Files/Pods-LionPassTests/Pods-LionPassTests.release.xcconfig"; sourceTree = "<group>"; };
+		0B5E60123DED944366E8A6AC /* Pods_LionPass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionPass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D7653BF5D421E126D2E8107 /* Pods_LionPass_LionPassUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionPass_LionPassUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B289554E50B18C4E265100D /* Pods-LionPassTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionPassTests.debug.xcconfig"; path = "Target Support Files/Pods-LionPassTests/Pods-LionPassTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E255302DE85CE4DF30414B8 /* Pods-LionPass-LionPassUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionPass-LionPassUITests.release.xcconfig"; path = "Target Support Files/Pods-LionPass-LionPassUITests/Pods-LionPass-LionPassUITests.release.xcconfig"; sourceTree = "<group>"; };
+		53956D889FE57616F67C5F44 /* Pods-LionPass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionPass.debug.xcconfig"; path = "Target Support Files/Pods-LionPass/Pods-LionPass.debug.xcconfig"; sourceTree = "<group>"; };
+		952416D7DDF6327D112FDF84 /* Pods-LionPass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionPass.release.xcconfig"; path = "Target Support Files/Pods-LionPass/Pods-LionPass.release.xcconfig"; sourceTree = "<group>"; };
+		AE2B08915393A6424AFF55EB /* Pods-LionPass-LionPassUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionPass-LionPassUITests.debug.xcconfig"; path = "Target Support Files/Pods-LionPass-LionPassUITests/Pods-LionPass-LionPassUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBCEA7B04C73E0B5D81BB88C /* Pods_LionPassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionPassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D039E8DB233D1EB800B0FC6B /* LionPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D039E8DE233D1EB800B0FC6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D039E8E0233D1EB800B0FC6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D039E8E2233D1EB800B0FC6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D039E8E5233D1EB800B0FC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D039E8E7233D1EB900B0FC6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D039E8EA233D1EB900B0FC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +64,12 @@
 		D039E8FC233D1EB900B0FC6B /* LionPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D039E900233D1EB900B0FC6B /* LionPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionPassUITests.swift; sourceTree = "<group>"; };
 		D039E902233D1EB900B0FC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D039E910233D240300B0FC6B /* SwiftyTesseract.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyTesseract.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D039E92E2341298900B0FC6B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		D039E93223412F3700B0FC6B /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		D039E9342341447200B0FC6B /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		D039E936234145FA00B0FC6B /* AddProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProfileViewController.swift; sourceTree = "<group>"; };
+		D039E9382343C4B000B0FC6B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D039E92F2341298900B0FC6B /* CoreImage.framework in Frameworks */,
+				1678B321F7B8C2D7381CCFB8 /* Pods_LionPass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D47B6C487A4D506F71381675 /* Pods_LionPassTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DFCC71B57AC7D7CB3746210 /* Pods_LionPass_LionPassUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		113C1B9972F018BC830B25E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D039E92E2341298900B0FC6B /* CoreImage.framework */,
+				D039E910233D240300B0FC6B /* SwiftyTesseract.framework */,
+				0B5E60123DED944366E8A6AC /* Pods_LionPass.framework */,
+				1D7653BF5D421E126D2E8107 /* Pods_LionPass_LionPassUITests.framework */,
+				CBCEA7B04C73E0B5D81BB88C /* Pods_LionPassTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EFD417C1718AB0EF99C6B06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53956D889FE57616F67C5F44 /* Pods-LionPass.debug.xcconfig */,
+				952416D7DDF6327D112FDF84 /* Pods-LionPass.release.xcconfig */,
+				AE2B08915393A6424AFF55EB /* Pods-LionPass-LionPassUITests.debug.xcconfig */,
+				4E255302DE85CE4DF30414B8 /* Pods-LionPass-LionPassUITests.release.xcconfig */,
+				4B289554E50B18C4E265100D /* Pods-LionPassTests.debug.xcconfig */,
+				0A810B62E13D99D6E57BCC79 /* Pods-LionPassTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D039E8D2233D1EB800B0FC6B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +133,8 @@
 				D039E8F4233D1EB900B0FC6B /* LionPassTests */,
 				D039E8FF233D1EB900B0FC6B /* LionPassUITests */,
 				D039E8DC233D1EB800B0FC6B /* Products */,
+				1EFD417C1718AB0EF99C6B06 /* Pods */,
+				113C1B9972F018BC830B25E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +153,10 @@
 			children = (
 				D039E8DE233D1EB800B0FC6B /* AppDelegate.swift */,
 				D039E8E0233D1EB800B0FC6B /* SceneDelegate.swift */,
-				D039E8E2233D1EB800B0FC6B /* ViewController.swift */,
+				D039E936234145FA00B0FC6B /* AddProfileViewController.swift */,
+				D039E9382343C4B000B0FC6B /* ProfileViewController.swift */,
+				D039E93223412F3700B0FC6B /* Profile.swift */,
+				D039E9342341447200B0FC6B /* RealmService.swift */,
 				D039E8E4233D1EB800B0FC6B /* Main.storyboard */,
 				D039E8E7233D1EB900B0FC6B /* Assets.xcassets */,
 				D039E8E9233D1EB900B0FC6B /* LaunchScreen.storyboard */,
@@ -135,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D039E905233D1EB900B0FC6B /* Build configuration list for PBXNativeTarget "LionPass" */;
 			buildPhases = (
+				17EBED0AD7FD750A582E3316 /* [CP] Check Pods Manifest.lock */,
 				D039E8D7233D1EB800B0FC6B /* Sources */,
 				D039E8D8233D1EB800B0FC6B /* Frameworks */,
 				D039E8D9233D1EB800B0FC6B /* Resources */,
+				C5CD27BAD65517C158D8FF9C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D039E908233D1EB900B0FC6B /* Build configuration list for PBXNativeTarget "LionPassTests" */;
 			buildPhases = (
+				22055BD6F40465570C0D0673 /* [CP] Check Pods Manifest.lock */,
 				D039E8ED233D1EB900B0FC6B /* Sources */,
 				D039E8EE233D1EB900B0FC6B /* Frameworks */,
 				D039E8EF233D1EB900B0FC6B /* Resources */,
@@ -170,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D039E90B233D1EB900B0FC6B /* Build configuration list for PBXNativeTarget "LionPassUITests" */;
 			buildPhases = (
+				F599FE38EC03C8638502E602 /* [CP] Check Pods Manifest.lock */,
 				D039E8F8233D1EB900B0FC6B /* Sources */,
 				D039E8F9233D1EB900B0FC6B /* Frameworks */,
 				D039E8FA233D1EB900B0FC6B /* Resources */,
+				074A0FE00AC6180707068AB6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,14 +314,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		074A0FE00AC6180707068AB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LionPass-LionPassUITests/Pods-LionPass-LionPassUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LionPass-LionPassUITests/Pods-LionPass-LionPassUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LionPass-LionPassUITests/Pods-LionPass-LionPassUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17EBED0AD7FD750A582E3316 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LionPass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22055BD6F40465570C0D0673 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LionPassTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5CD27BAD65517C158D8FF9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LionPass/Pods-LionPass-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LionPass/Pods-LionPass-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LionPass/Pods-LionPass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F599FE38EC03C8638502E602 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LionPass-LionPassUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D039E8D7233D1EB800B0FC6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D039E8E3233D1EB800B0FC6B /* ViewController.swift in Sources */,
+				D039E9392343C4B000B0FC6B /* ProfileViewController.swift in Sources */,
 				D039E8DF233D1EB800B0FC6B /* AppDelegate.swift in Sources */,
+				D039E93323412F3700B0FC6B /* Profile.swift in Sources */,
 				D039E8E1233D1EB800B0FC6B /* SceneDelegate.swift in Sources */,
+				D039E937234145FA00B0FC6B /* AddProfileViewController.swift in Sources */,
+				D039E9352341447200B0FC6B /* RealmService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,10 +598,12 @@
 		};
 		D039E906233D1EB900B0FC6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53956D889FE57616F67C5F44 /* Pods-LionPass.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96QE7H4LVL;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = LionPass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,10 +618,12 @@
 		};
 		D039E907233D1EB900B0FC6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 952416D7DDF6327D112FDF84 /* Pods-LionPass.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96QE7H4LVL;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = LionPass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -468,8 +638,8 @@
 		};
 		D039E909233D1EB900B0FC6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B289554E50B18C4E265100D /* Pods-LionPassTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96QE7H4LVL;
@@ -490,8 +660,8 @@
 		};
 		D039E90A233D1EB900B0FC6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A810B62E13D99D6E57BCC79 /* Pods-LionPassTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96QE7H4LVL;
@@ -512,8 +682,8 @@
 		};
 		D039E90C233D1EB900B0FC6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE2B08915393A6424AFF55EB /* Pods-LionPass-LionPassUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96QE7H4LVL;
 				INFOPLIST_FILE = LionPassUITests/Info.plist;
@@ -532,8 +702,8 @@
 		};
 		D039E90D233D1EB900B0FC6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E255302DE85CE4DF30414B8 /* Pods-LionPass-LionPassUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96QE7H4LVL;
 				INFOPLIST_FILE = LionPassUITests/Info.plist;
