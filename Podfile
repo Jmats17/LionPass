@@ -9,6 +9,7 @@ pod 'Alamofire'
 pod 'RealmSwift'
 pod 'GradientProgressBar', '~> 2.0'
 pod 'DeckTransition', '~> 2.0'
+pod 'TransitionableTab', '~> 0.2.0'
 
   # Pods for LionPass
 

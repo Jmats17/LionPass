@@ -10,6 +10,7 @@ PODS:
   - RealmSwift (3.19.0):
     - Realm (= 3.19.0)
   - SwiftyJSON (4.3.0)
+  - TransitionableTab (0.2.0)
 
 DEPENDENCIES:
   - Alamofire
@@ -17,6 +18,7 @@ DEPENDENCIES:
   - GradientProgressBar (~> 2.0)
   - RealmSwift
   - SwiftyJSON (~> 4.0)
+  - TransitionableTab (~> 0.2.0)
 
 SPEC REPOS:
   trunk:
@@ -27,6 +29,7 @@ SPEC REPOS:
     - Realm
     - RealmSwift
     - SwiftyJSON
+    - TransitionableTab
 
 SPEC CHECKSUMS:
   Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
@@ -36,7 +39,8 @@ SPEC CHECKSUMS:
   Realm: 995d585bcf699aaff226715886c849a29dd3d07f
   RealmSwift: 35f284a537989f2187b413e5917091948cb87a3f
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  TransitionableTab: 54a5d0af475033bdb83959fde4e5d6201af7e2ab
 
-PODFILE CHECKSUM: f7117d25c546a64ce3a4356a3b8b7a056fcc6c64
+PODFILE CHECKSUM: ce800bf7e53b2b7398ae0019d711332c5e2deaa9
 
 COCOAPODS: 1.8.0
