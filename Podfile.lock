@@ -1,5 +1,9 @@
 PODS:
   - Alamofire (4.9.0)
+  - DeckTransition (2.2.0)
+  - GradientProgressBar (2.0.1):
+    - LightweightObservable (~> 1.0)
+  - LightweightObservable (1.0.3)
   - Realm (3.19.0):
     - Realm/Headers (= 3.19.0)
   - Realm/Headers (3.19.0)
@@ -9,22 +13,30 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - DeckTransition (~> 2.0)
+  - GradientProgressBar (~> 2.0)
   - RealmSwift
   - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - DeckTransition
+    - GradientProgressBar
+    - LightweightObservable
     - Realm
     - RealmSwift
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  DeckTransition: c705e1f6bf8d63a3515a91d8a41be7038005bf35
+  GradientProgressBar: 5edb703e14c9ff14a5e4d69827b5df48f5cdd8a5
+  LightweightObservable: 8687e8e1e2940ae2f64d7f71fe78c036d89c966f
   Realm: 995d585bcf699aaff226715886c849a29dd3d07f
   RealmSwift: 35f284a537989f2187b413e5917091948cb87a3f
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: 0589b24f5afc65f4eefda8385816a6425c1edb5a
+PODFILE CHECKSUM: f7117d25c546a64ce3a4356a3b8b7a056fcc6c64
 
 COCOAPODS: 1.8.0

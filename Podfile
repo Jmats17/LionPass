@@ -7,6 +7,9 @@ target 'LionPass' do
 pod 'SwiftyJSON', '~> 4.0'
 pod 'Alamofire'
 pod 'RealmSwift'
+pod 'GradientProgressBar', '~> 2.0'
+pod 'DeckTransition', '~> 2.0'
+
   # Pods for LionPass
 
   target 'LionPassTests' do

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1678B321F7B8C2D7381CCFB8 /* Pods_LionPass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5E60123DED944366E8A6AC /* Pods_LionPass.framework */; };
 		6DFCC71B57AC7D7CB3746210 /* Pods_LionPass_LionPassUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7653BF5D421E126D2E8107 /* Pods_LionPass_LionPassUITests.framework */; };
+		D008538223569AD2004785EC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008538123569AD2004785EC /* HomeViewController.swift */; };
+		D0085384235794DA004785EC /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0085383235794DA004785EC /* ScannerViewController.swift */; };
+		D00853862357A2A4004785EC /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00853852357A2A4004785EC /* TabBarController.swift */; };
 		D039E8DF233D1EB800B0FC6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039E8DE233D1EB800B0FC6B /* AppDelegate.swift */; };
 		D039E8E1233D1EB800B0FC6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039E8E0233D1EB800B0FC6B /* SceneDelegate.swift */; };
 		D039E8E6233D1EB800B0FC6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D039E8E4233D1EB800B0FC6B /* Main.storyboard */; };
@@ -51,6 +54,9 @@
 		952416D7DDF6327D112FDF84 /* Pods-LionPass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionPass.release.xcconfig"; path = "Target Support Files/Pods-LionPass/Pods-LionPass.release.xcconfig"; sourceTree = "<group>"; };
 		AE2B08915393A6424AFF55EB /* Pods-LionPass-LionPassUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionPass-LionPassUITests.debug.xcconfig"; path = "Target Support Files/Pods-LionPass-LionPassUITests/Pods-LionPass-LionPassUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CBCEA7B04C73E0B5D81BB88C /* Pods_LionPassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionPassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D008538123569AD2004785EC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D0085383235794DA004785EC /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		D00853852357A2A4004785EC /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		D039E8DB233D1EB800B0FC6B /* LionPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D039E8DE233D1EB800B0FC6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D039E8E0233D1EB800B0FC6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +161,9 @@
 				D039E8E0233D1EB800B0FC6B /* SceneDelegate.swift */,
 				D039E936234145FA00B0FC6B /* AddProfileViewController.swift */,
 				D039E9382343C4B000B0FC6B /* ProfileViewController.swift */,
+				D008538123569AD2004785EC /* HomeViewController.swift */,
+				D00853852357A2A4004785EC /* TabBarController.swift */,
+				D0085383235794DA004785EC /* ScannerViewController.swift */,
 				D039E93223412F3700B0FC6B /* Profile.swift */,
 				D039E9342341447200B0FC6B /* RealmService.swift */,
 				D039E8E4233D1EB800B0FC6B /* Main.storyboard */,
@@ -425,9 +434,12 @@
 				D039E9392343C4B000B0FC6B /* ProfileViewController.swift in Sources */,
 				D039E8DF233D1EB800B0FC6B /* AppDelegate.swift in Sources */,
 				D039E93323412F3700B0FC6B /* Profile.swift in Sources */,
+				D00853862357A2A4004785EC /* TabBarController.swift in Sources */,
 				D039E8E1233D1EB800B0FC6B /* SceneDelegate.swift in Sources */,
 				D039E937234145FA00B0FC6B /* AddProfileViewController.swift in Sources */,
+				D008538223569AD2004785EC /* HomeViewController.swift in Sources */,
 				D039E9352341447200B0FC6B /* RealmService.swift in Sources */,
+				D0085384235794DA004785EC /* ScannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
